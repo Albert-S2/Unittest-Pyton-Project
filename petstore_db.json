@@ -1,0 +1,98 @@
+{
+    "pets": [
+        {
+            "id": 1,
+            "name": "Max",
+            "category": {
+                "id": 101,
+                "name": "Dog"
+            },
+            "photoUrls": [
+                "https://example.com/photos/max1.jpg",
+                "https://example.com/photos/max2.jpg"
+            ],
+            "tags": [
+                {
+                    "id": 201,
+                    "name": "friendly"
+                },
+                {
+                    "id": 202,
+                    "name": "playful"
+                }
+            ],
+            "status": "available"
+        },
+        {
+            "id": 2,
+            "name": "Whiskers",
+            "category": {
+                "id": 102,
+                "name": "Cat"
+            },
+            "photoUrls": [
+                "https://example.com/photos/whiskers1.jpg",
+                "https://example.com/photos/whiskers2.jpg"
+            ],
+            "tags": [
+                {
+                    "id": 203,
+                    "name": "independent"
+                },
+                {
+                    "id": 204,
+                    "name": "quiet"
+                }
+            ],
+            "status": "sold"
+        }
+    ],
+    "categories": [
+        {
+            "id": 101,
+            "name": "Dog"
+        },
+        {
+            "id": 102,
+            "name": "Cat"
+        },
+        {
+            "id": 103,
+            "name": "Bird"
+        }
+    ],
+    "orders": [
+        {
+            "id": 301,
+            "petId": 1,
+            "quantity": 2,
+            "shipDate": "2024-10-01T14:30:00Z",
+            "status": "shipped",
+            "complete": true
+        },
+        {
+            "id": 302,
+            "petId": 2,
+            "quantity": 1,
+            "shipDate": "2024-10-03T11:00:00Z",
+            "status": "pending",
+            "complete": false
+        },
+        {
+            "id": 303,
+            "petId": 1,
+            "quantity": 1,
+            "shipDate": "2024-10-05T16:00:00Z",
+            "status": "pending",
+            "complete": false
+        },
+        {
+            "id": 303,
+            "petId": 1,
+            "quantity": 1,
+            "shipDate": "2024-10-05T16:00:00Z",
+            "status": "pending",
+            "complete": false
+        }
+    ]
+}
