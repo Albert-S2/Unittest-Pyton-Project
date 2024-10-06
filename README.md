@@ -25,11 +25,17 @@ Tests are organized to cover the following **CRUD** operations:
 
 ## Installation & usage:
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/petstore-api-unittest.git
-   ```
+```bash
+git clone https://github.com/yourusername/petstore-api-unittest.git
+```
 2. Navigate to the project directory
+```plaintext
+Unittest-Python-Project/
+├── tests/
+│   ├── test_orders_sdk.py
+│   └── test_petstore_sdk.py
+```
 3. To run all the tests, use the following command:
-   ```bash
-   python -m unittest discover
-   ```
+```bash
+python -m unittest discover
+```
